@@ -1,0 +1,46 @@
+{
+  "name": "wta_discord",
+  "version": "0.0.1",
+  "description": "Node.js IRC bot",
+  "homepage": "https://github.com/epochwolf/wta_discord",
+  "keywords": [
+    "irc",
+    "chat",
+    "bot",
+    "purple"
+  ],
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://raw.github.com/epochwolf/wta_discord/master/LICENSE"
+    }
+  ],
+  "author": "epochwolf <me@epochwolf.com> (http://epochwolf.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epochwolf/wta_discord.git"
+  },
+  "files": [
+    "./lib"
+  ],
+  "main": "./run_bot.js",
+  "dependencies": {
+    "discord.js": "11.4.x",
+    "erlpack": "*",
+    "sodium": "*",
+    "uws": "*",
+    "zlib-sync": "*",
+    "node-opus": "*",
+    "dateformat": "*"
+  },
+  "scripts": {
+    "start": "node ./run_bot.js"
+  },
+  "engines": {
+    "node": "~ 0.10.9"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ]
+}
